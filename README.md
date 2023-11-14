@@ -54,14 +54,14 @@ Use [Perfetto UI](https://ui.perfetto.dev/) to do measurements. Results show tha
 
 ### Shadow DOM (constructable stylesheets)
 
-`UpdateLayoutTree` is 37ms 700us
-`Document::recalcStyle` is 13ms 797us
+- `UpdateLayoutTree` is 37ms 700us
+- `Document::recalcStyle` is 13ms 797us
 
 ![img.png](./assets/mono-shadow-dom.png)
 
 ### Real DOM
 
-`UpdateLayoutTree` is 14ms 914us
-`Document::recalcStyle` is 8ms 532us
+- `UpdateLayoutTree` is 14ms 914us
+- `Document::recalcStyle` is 8ms 532us
 
 ![img.png](./assets/mono-real-dom.png)
