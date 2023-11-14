@@ -110,9 +110,6 @@ const styles = `
 const sheet = new CSSStyleSheet();
 sheet.replaceSync(styles);
 
-// Apply the stylesheet to a document:
-document.adoptedStyleSheets = [sheet];
-
 customElements.define(
   "test-element",
   class extends HTMLElement {

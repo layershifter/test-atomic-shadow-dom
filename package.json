@@ -7,6 +7,8 @@
     "dev:fast": "vite ./fast",
     "dev:shadow": "vite ./shadow-dom",
     "dev:real": "vite ./real-dom",
+    "dev:mono:real": "vite ./mono-real-dom",
+    "dev:mono:shadow": "vite ./mono-shadow-dom",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
